@@ -15,3 +15,37 @@ Types of graphs created:
 - Top Directors
 - Top Genres
 - Top Genre Combinations
+
+## Installation
+
+Requirements:
+
+- python
+- jupyter-notebook
+
+(You can install these using your package manager)
+
+### Install Python Virtual Environment tool
+
+For Windows: `pip install virtualenv`\
+For Linux: `pipx install virtualenv` (Install `pipx` with your package manager if you haven't already)
+
+### Create Python Virtual Environment:
+After cloning the repository, go into the project folder to create the virtual environment.
+
+Windows:
+```cmd
+virtualenv .venv
+.venv\Scripts\activate
+```
+
+Linux:
+```bash
+virtualenv .venv
+source .venv/bin/activate
+```
+
+### Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
